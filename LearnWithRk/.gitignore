@@ -1,0 +1,78 @@
+#
+# Project specific excludes
+#
+
+tomcat
+
+#
+# Default excludes
+#
+
+# Binaries
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+*.sar
+*.class
+*.factorypath
+*.pyc
+*.log
+# Maven 
+*/target/
+
+#exception
+!chronix-server-*.jar
+!chronix-0.5*.zip
+!**/solrj-lib/*.jar
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+*/.settings/
+*/.classpath
+*/.project
+
+# NetBeans specific
+*/nbproject/private/
+*/build/
+*/nbbuild/
+*/dist/
+*/nbdist/
+*/nbactions.xml
+*/nb-configuration.xml
+
+#vs code
+.vscode/
+.settings/
+.project
+
+# OS
+*.DS_Store
+
+# Misc
+*.swp
+*/release.properties
+*/pom.xml.releaseBackup
+*/pom.xml.tag
+*.factorypath
+
+**/temp/
+__pycache__
+dumps/
+*/dumps/
+******/results/log.html
+******/results/output.html
+******/results/report.xml
+/.metadata/
+/.recommenders/
